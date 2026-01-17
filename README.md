@@ -46,12 +46,6 @@ Grid search scripts are provided to tune key hyperparameters for each model.
 - `svm.py`, `randomForest.py`, `mlp.py` — training scripts  
 - `svmGridSearch.py`, `randomForestGridSearch.py`, `mlpGridSearch.py` — hyperparameter tuning (GridSearchCV)  
 - `labelClasses.csv` — class label mapping  
-- `sample_images/` — small demo subset of the dataset (for illustration only)  
-- `assets/` — figures/results (e.g., confusion matrices, tables)
+- `sample_images/images/` — small demo subset of the dataset (for illustration only)  
 
-## How to Run (example)
-> Exact commands may vary depending on how your paths are set in the scripts.
 
-1. (Optional) Run preprocessing:
-```bash
-python cleanup.py
